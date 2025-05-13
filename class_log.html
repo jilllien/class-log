@@ -21,7 +21,7 @@
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const data = Object.fromEntries(new FormData(form).entries());
-      const response = await fetch('https://script.google.com/macros/s/你的_API_URL/exec', {
+      const response = await fetch('https://script.google.com/macros/s/AKfycbztSF8ofM-xGefjmPpHcHaISqMED53_QfxuQPer2gSMBe7YSDF3v2yI8oeCWLKjSxSv_Q/exec', {
         method: 'POST',
         body: JSON.stringify(data)
       });
